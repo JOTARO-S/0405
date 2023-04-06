@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+.parent {
+    background-color: #99FFCC;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    float: left;
+}
+
+.child1 {
+    background-color: #FFCC99;
+    position: static;
+    top: 20px;
+    left: 40px;
+}
+
+.child2 {
+    background-color: #FFCC99;
+    position: relative;
+    top: 20px;
+    left: 40px;
+}
+
+.child3 {
+    background-color: #FFCC99;
+    position: absolute;
+    top: 20px;
+    left: 40px;
+}
+
+.child4 {
+    background-color: #FFCC99;
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+}

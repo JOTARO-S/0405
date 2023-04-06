@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="jp">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- CSS 読み込み -->
+    <link rel="stylesheet" href="../CSS/test.css" type="text/css">
+    <title>test</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <h1>ボタンの作成</h1>
+        <p>
+            「a」「button」「input」タグに「btn」と「btn-～」クラスを付与します。<br>
+            <a class="btn btn-default" href="#">aタグで作成したボタン</a>
+            <button class="btn btn-default" type="submit">buttonタグで作成したボタン</button>
+            <input class="btn btn-default" type="submit" value="inputタグで作成したボタン">
+        </p>
+        <p>
+            「btn-～」のクラス名を変えることで、ボタンの色を変更します。<br>
+            <button type="button" class="btn btn-primary">btn-primary</button>
+            <button type="button" class="btn btn-secondary">btn-secondary</button>
+            <button type="button" class="btn btn-success">btn-success</button>
+            <button type="button" class="btn btn-info">btn-info</button>
+            <button type="button" class="btn btn-warning">btn-warning</button>
+            <button type="button" class="btn btn-danger">btn-danger</button>
+            <button type="button" class="btn btn-light">btn-light</button>
+            <button type="button" class="btn btn-dark">btn-dark</button>
+            <button type="button" class="btn btn-link">btn-link</button>
+        </p>
+        <p>
+            「btn-～」でサイズを指定することもできます。<br>
+            <button type="button" class="btn btn-default btn-lg">btn-lg</button>
+            <button type="button" class="btn btn-default">指定なし</button>
+            <button type="button" class="btn btn-default btn-sm">btn-sm</button>
+        </p>
+        <p style="width:300px;">
+            「btn-block」で親要素の横幅に広がります。
+            <button type="button" class="btn btn-default btn-block">btn-block</button>
+        </p>
+        <p>
+            ボタンを押下状態、押下不可状態にするには、それぞれ「active」「disabled」を指定します。<br>
+            <a href="#" class="btn btn-default btn-lg active">押下状態</a>
+            <a href="#" class="btn btn-default btn-lg disabled">押下不可状態</a>
+            <button type="button" class="btn btn-default btn-sm active">押下状態</button>
+            <button type="button" class="btn btn-default btn-sm" disabled="disabled">押下不可状態</button>
+        </p>
+    </div><!-- /container -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

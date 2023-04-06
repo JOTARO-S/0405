@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+/* ----- width ------*/
+
+.main {
+    width: 100%;
+    background-color: #ffd78e85;
+    height: 500px;
+}
+
+.w1 {
+    background-color: orange;
+    width: 30%;
+    height: 200px;
+    float: left;
+}
+
+.w2 {
+    background-color: royalblue;
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.w3 {
+    background-color: lawngreen;
+    width: auto;
+    height: 200px;
+}
+
+/* ----- height ------*/
+
+.h1 {
+    background-color: orange;
+    height: 30%;
+    width: 200px;
+}
+
+.h2 {
+    background-color: royalblue;
+    height: 200px;
+    width: 200px;
+}
+
+.h3 {
+    background-color: lawngreen;
+    height: auto;
+    width: 200px;
+}
+
+

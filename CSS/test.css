@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+.positon_right {
+    float: right;
+}
+
+
+/* ---- C0010 ---- */
+
+
+/* ---- C0020 ---- */
+.header_bg:hover {
+    background-color: gray;
+}
+
+/* ---- S0010 ---- */
+
+/* ---- S0011 ---- */
+
+/* ---- S0020 ---- */
+
+.naminami {
+
+}
+
+.naminami p {
+    text-align: center;
+    display: block;
+}

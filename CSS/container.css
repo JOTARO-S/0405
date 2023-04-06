@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+.bg-gray {
+    background-color: #ddd;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-aqua {
+    background-color: aqua;
+}
+
+.bg-coral {
+    background-color: coral;
+}
